@@ -1,0 +1,8 @@
+/* h2 - selector
+{} - expressions
+color - property
+green - value */
+
+h2 {
+    color: green !important;
+}

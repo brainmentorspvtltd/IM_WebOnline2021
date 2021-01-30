@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #div_1 {
+            background-color: lightblue;
+        }
+        #div_2 {
+            background-color: lightgray;
+        } */
+
+        #div_1, #div_2 {
+            background-color: lightgray;
+        }
+
+        /* #div_1 h2 {
+            color: red;
+        } */
+        #div_1 .child h2,
+        #div_2 .child h2
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Basic Selectors</h1>
+
+    <div id="div_1">
+        <h2>This is child of div</h2>
+        <div class="child">
+            <h2>This is child of a nested div</h2>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="div_2">
+        <h2>This is child of div</h2>
+        <div>
+            <h2>This is child of a nested div</h2>
+        </div>
+    </div>
+    
+</body>
+</html>

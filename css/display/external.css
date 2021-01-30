@@ -1,0 +1,25 @@
+ul li {
+    display: inline-block;
+    background-color: black;
+    margin: 0px 10px;
+    width: 15%;
+    text-align: center;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+}
+ul li:hover {
+    background-color: red;
+}
+
+.col {
+    background-color: lightgray;
+    border: 1px solid red;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 0px 5px;
+}
